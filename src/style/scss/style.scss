@@ -1,0 +1,27 @@
+$text: green;
+// @import './fonts.scss';
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../fonts/montserrat-v23-latin_cyrillic-700.woff2")
+      format("woff2"),
+    url("../../fonts/montserrat-v23-latin_cyrillic-700.woff") format("woff");
+}
+
+body {
+  h1 {
+    // color: $text;
+    user-select: none;
+    color: red;
+    font-family: "Montserrat";
+  }
+  font-family: "Montserrat";
+  margin-top: 10px;
+
+
+  .image {
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-image: url('../../public/img/icon.png');
+  }
+}
